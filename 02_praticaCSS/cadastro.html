@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+	<title>Cadastro de Pessoas</title> 
+	<link type="text/css" rel="stylesheet" href="gstilo1.css">
+	</head>
+	
+	<body>
+	
+	 <h1> Dados do Cadastro</h1>
+	 
+		<form method="get" action="validar.html">
+		
+			<label for="Nome da Pessoa">Nome</label>
+			<input type="text" name="nome" placeholder="Nome da Pessoa">
+			<label for="endereço">Endereço</label>
+			<input type="text" name="endereço" placeholder="Nome da Rua">
+			<label for="telefone">Telefone</label>
+			<input type="text" name="telefone" placeholder="Utilize o formato (31) 98888-8888">
+			
+			<br>
+			
+			<label>Genero</label>
+			<br>
+			<input type="radio" id="masculino" name="genero">
+			<label for="masculino">Masculino</label>
+			<br>
+			<input type="radio" id="feminino" name="genero">
+			<label for="feminino">Feminino</label>
+			<br>
+			<input type="radio" id="naobinario" name="genero">
+			<label for="naobinario">Nao Binário</label>
+			
+			<br>
+			
+			<label for="area">Area de Interesse</label>
+			<br>
+
+			<input type="checkbox" id="otimizaçao" name="area[0]">
+			<label for="otimizaçao">Otimizaçao</label>
+			<br>
+			<input type="checkbox" id="web" name="area[1]">
+			<label for="web">Web</label>
+			<br>
+			<input type="checkbox" id="bd" name="area[2]">
+			<label for="bd">Banco de Dados</label>
+			
+			<br>
+			
+			<label for="cidade">Cidade</label>
+			<select name="cidade">
+				<option value="0">Selecione:</option>
+				<option value="56">Joao Monlevade</option>
+				<option value="64">Itabira</option>
+				<option value="653">Alvinopolis</option>
+				<option value="69">Nova Era</option>
+			</select>
+			
+			<br>
+			
+			<label for="usuario">Usuario</label>
+			<input type="text" name="usuario" >
+			<br>
+			<label for="senha">Senha</label>
+			<input type="password" name="senha" >
+			<br>
+			
+			<input type="submit" value="Cadastrar" name="cadastro">
+			<br>
+			
+			<input type="reset" value="limpar">
+		</form>
+		<br>
+		<a href="paginainicial.html">Voltar</a>
+	
+	</body>
+</html>

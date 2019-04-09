@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+	<title>Registro de Produto</title> 
+		<style type="text/css">
+			body{
+			background-color:#88CEFA;
+			}
+		</style>	
+	</head>
+	
+	<body>
+	
+	 <h1> Dados do Produto</h1>
+	 
+		<form method="get" action="RegistrarProduto.html">
+		
+			<label for="Nome do produto">Nome</label>
+			<input type="text" name="nome" placeholder="Nome do Produto">
+			<label for="fornecedor">Fornecedor</label>
+			<input type="text" name="fornecedor" placeholder="Nome do fornecedor">
+			<label for="descriçao">Descriçao</label>
+			<input type="text" name="descriçao" placeholder="descreva o produto">
+			<br>
+			<br>
+			<label for="quantidade">Quantidade em estoque</label>
+			<input type="text" name="quantidade" placeholder="Em estoque">
+			<br>
+			<label for="preco">Preço</label>
+			<input type="text" name="preco" placeholder="Preço do produto">
+			<br>
+			
+			<label>Tipo de Midia</label>
+			<br>
+			<input type="radio" id="digital" name="midia">
+			<label for="digital">Digital</label>
+			<br>
+			<input type="radio" id="fisica" name="midia">
+			<label for="fisica">Fisica</label>
+			<br>
+			<input type="radio" id="todas" name="midia">
+			<label for="todas">Todos os tipos</label>
+			
+			<br>
+			
+			<label for="plataformas">Plataformas</label>
+			<br>
+
+			<input type="checkbox" id="PS4" name="plataformas[0]">
+			<label for="PS4">PS4</label>
+			<br>
+			<input type="checkbox" id="xboxONE" name="plataformas[1]">
+			<label for="xboxONE">Xbox ONE</label>
+			<br>
+			<input type="checkbox" id="pc" name="plataformas[2]">
+			<label for="PC">PC</label>
+			
+			<br>
+			
+			<label for="genero">Gênero</label>
+			<select name="genero">
+				<option value="0">Selecione:</option>
+				<option value="1">Açao</option>
+				<option value="2">Aventura</option>
+				<option value="3">Terror</option>
+				<option value="4">Indie</option>
+				<option value="5">Corrida</option>
+				<option value="6">Mundo Aberto</option>
+				<option value="7">Tiro</option>
+			</select>
+			
+			<br>
+			
+			
+			<input type="submit" value="Registrar" name="registroproduto">
+			<br>
+			
+			<input type="reset" value="limpar">
+		</form>
+		<br>
+		<a href="paginainicial.html">Voltar</a>
+	
+	</body>
+</html>

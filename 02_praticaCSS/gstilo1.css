@@ -1,0 +1,44 @@
+	body{
+		background-color:#87CEFA;
+		margin-left: 10%;
+		margin-right: 10%;
+		border: 2px dotted black;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+	}
+	
+	h1{
+		font-weight:lighter;
+		font-family:castellar;
+		font-size:40pt;
+		color: yellow;
+		border-bottom: 1px solid black;
+	}
+		
+	.gray{
+		 color: gray;
+	}
+		
+	.centraliza{
+		text-align: center;
+	}
+		
+	.underl{
+		text-decoration:underline;
+	
+	}
+	#hacker{
+		border-style: outset;
+		line-height: 1.9em;
+		font-style: italic;
+		font-family:georgian,Times,serif;
+		border-color: black;
+		border-width: 3px;
+		background-color: gray;
+		color: red;
+		padding: 25px;
+		margin: 200px;
+		margin-bottom:20px;
+		margin-top:20px;
+		
+	}

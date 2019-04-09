@@ -1,0 +1,35 @@
+/* definiçoes para tabela*/
+
+table{
+	width:100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 20px;
+}
+
+tbody tr:hover{
+	background-color: red;
+}
+
+tfoot tr:hover{
+	background-color: blue;
+}
+thead tr:hover{
+	background-color: green;
+}
+
+tr:nth-child(even){
+	background-color:#a9a9a9
+}
+th{
+	font-size:14pt;
+	font-family: tahoma;
+	font-style: italic;
+	background-color:
+}

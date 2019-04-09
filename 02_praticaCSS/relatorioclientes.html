@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+	<title>Relatorio</title>
+	
+	<style>
+		h1{
+		font-family: arial;
+		color:blue;
+		}
+		table{width:100%;}
+		table,th,td{
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+		p.maior{
+		color:#0e9ef8;
+		text-align:center;
+		font:12pt;
+		}
+		.destaque{
+		font-family: tahoma;
+		font-size: 18pt;
+		color: blue;
+		background-color:#c6d8e5;
+		text-align:center;
+		}
+		
+	</style>
+			
+	</head>
+	
+	<body>
+
+		<h1>Lista dos clientes cadastrados</h1>
+		
+		<p class="maior">tema da aula:  tabelas html</p>
+		<p>horario 13:30 as 15:20</p>
+		
+		<table>
+		
+		 <caption style="font-size:20pt; color:#e5b8g9;">Lista clientes</caption>
+		
+		 <thead>
+			<tr>
+			 <th>CPF</th>
+			 <th>Nome</th>
+			 <th>E-mail</th>
+			 <th>CEP</th>
+			 <th>Estado</th>
+			</tr>
+		 </thead>
+		 
+		 <tbody>
+			<tr>
+			 <td>231654646654</td>
+			 <td>geraldo</td>
+			 <td>g@gmail.com</td>
+			 <td>94845465</td>
+			 <td rowspan="3">MG</td>
+			</tr>
+			
+			<tr>
+			 <td>1111111111</td>
+			 <td>robson</td>
+			 <td>rb@gmail.com</td>
+			 <td>123456798</td>
+			</tr>
+			
+			<tr>
+			 <td>333333333333</td>
+			 <td>Jubileica</td>
+			 <td>juju@gmail.com</td>
+			 <td>444696977</td>
+			</tr>
+		 </tbody>
+			<tr>
+			 <td colspan="3" class="destaque">total:</td>
+			 <td colspan="2" class="destaque">3</td>
+			</tr>
+		 <tfoot>
+		 
+		 </tfoot>
+		
+		</table>
+		
+		<footer>
+		
+		</footer>
+	</body>
+</html>

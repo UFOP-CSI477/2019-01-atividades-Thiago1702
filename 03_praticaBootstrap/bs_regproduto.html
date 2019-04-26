@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+	<head>
+	<meta charset="utf-8" />
+	<title>Cadastro de Produto</title>
+	<link rel="stylesheet" href=".\bootstrap\css\bootstrap.css" >
+		<link rel="stylesheet" href="./css/gamestilo.css" >
+
+	</head>
+	
+	<body>
+	 <div class="cadastro">
+		<form>
+		
+		<h1>Cadastro de Produto</h1>
+		<div class="form-group">
+		<label for="nome">Nome</label>
+		<input class="form-control form-control-sm" type="text" name="nome" id="nome" placeholder="Informe o nome">
+		</div>
+		
+		<div class="form-group">
+		<label for="descriçao">Descrição</label>
+		<input class="form-control form-control-sm" type="text" name="descriçao" id="descriçao" placeholder="descreva o produto">
+		</div>
+		
+		
+		 <h5>Tipo de Mídia</h3>
+		 
+		 <div class="form-group form-check">
+		 
+		<input type="radio" name="midia" value="F" id="fisica" class="form-check-input">
+		<label for="fisica" class="form-check-label">Fisica</label>
+		
+		</div>
+		
+		<div class="form-group form-check">
+		<input type="radio" name="midia" value="D" id="digital" class="form-check-input">
+		<label for="digital" class="form-check-label">Digital</label>
+		</div>
+		
+		
+		
+		
+		<h5>Escolha o Gênero do Game</h5>
+		<div class="form-group">
+			<label for="genero">Gênero</label>
+			<select nome="genreo" id="genero" class="custom-select">
+			 <option value="0">Selecione:</option>
+			 <option value="1">Ação</option>
+			 <option value="2">Aventura</option>
+			 <option value="3">FPS</option>
+			 <option value="3">Tiro</option>
+			 <option value="3">Mundo Aberto</option>
+			 <option value="3">Terror</option>
+			
+			</select>
+		</div>
+		
+		<div class="custom-control custom-switch">
+		
+			<input type="checkbox" id="disponivel" class="custom-control-input">
+			<label for="disponivel" class="custom-control-label">Tem em estoque</label>
+		
+		</div>
+		
+		</form>
+		<br>
+		<a href="#" class="btn btn-success btn-md" target="_blank">Concluir</a>
+	 </div>
+	</body>
+</html>

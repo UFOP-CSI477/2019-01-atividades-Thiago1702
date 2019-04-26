@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+	<head>
+	<meta charset="utf-8" />
+	<title>Cadastrar</title>
+	<link rel="stylesheet" href=".\bootstrap\css\bootstrap.css" >
+		<link rel="stylesheet" href="./css/gamestilo.css" >
+
+	</head>
+	
+	<body>
+	 <div class="cadastro">
+		<form>
+		
+		<h1 class="amarelo">Faça seu Cadastro</h1>
+		<div class="form-group">
+		<label for="nome">Nome</label>
+		<input class="form-control form-control-lg" type="text" name="nome" id="nome" placeholder="Informe o nome">
+		</div>
+		
+		<div class="form-group">
+		 <label for="email">Email</label>
+		 <input type="email" class="form-control" id="email" placeholder="name@example.com">
+		</div>
+		
+		<div class="form-group">
+		<label for="senha">Senha</label>
+		<input class="form-control form-control-sm" type="password" name="senha" id="senha" placeholder="Informe sua senha">
+		</div>
+		
+		<div class="form-group form-check">
+		
+		<input type="checkbox" id="confirmar" class="form-check-input">
+		<label for="confirmar">Confirmar</label>
+			
+		</div>
+		
+		 <h5>Sexo</h3>
+		 
+		 <div class="form-group form-check">
+		 
+		<input type="radio" name="genero" value="F" id="feminino" class="form-check-input">
+		<label for="feminino" class="form-check-label">Feminino</label>
+		
+		</div>
+		
+		<div class="form-group form-check">
+		<input type="radio" name="genero" value="M" id="masculino" class="form-check-input">
+		<label for="masculino" class="form-check-label">Masculino</label>
+		</div>
+		
+		<div class="form-group form-check">
+		<input type="radio" name="genero" value="NB" id="naobinario" class="form-check-input">
+		<label for="naobinario" class="form-check-label">Não Binario</label>
+		
+		</div>
+		
+		<h5>Informe seu Endereço</h5>
+		<div class="form-group">
+			<label for="cidade">Cidade</label>
+			<select nome="cidade" id="cidade" class="custom-select">
+			 <option value="0">Selecione:</option>
+			 <option value="1">Itabira</option>
+			 <option value="2">João Monlevade</option>
+			 <option value="3">Belo Horizonte</option>
+			
+			</select>
+		</div>
+		
+		<div class="custom-control custom-switch">
+		
+			<input type="checkbox" id="aceite" class="custom-control-input">
+			<label for="aceite" class="custom-control-label">Aceito os termos</label>
+		
+		</div>
+		
+		</form>
+		<br>
+		<a href="produtos.html" class="btn btn-success btn-md" target="_blank">Concluir</a>
+	 </div>
+	</body>
+</html>

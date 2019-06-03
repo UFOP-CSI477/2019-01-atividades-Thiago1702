@@ -1,0 +1,57 @@
+.init{
+	font-size:70px;
+	color:yellow;
+	text-align: center;
+	border-bottom: 1px solid black;
+	
+	}
+	.castel{
+	font-family: castellar;
+	font-weight: lighter;
+	}
+	body{
+		background-color:#87CEFA;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 10px 10px 10px 10px;
+		border-style: outset;
+		border-color: yellow;
+		border-width: 3px;
+		
+	}
+	.bgtable{
+		background-color:#d3d3d3;
+	}
+	.amarelo{
+		color:yellow;
+	}
+	.centra{
+		text-align:center;
+	}
+	.sublinha{
+		text-decoration:underline;
+	}
+	
+	.cadastro{
+		background-color:#D3D3D3;
+		border: solid yellow;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding: 10px 10px 10px 10px;
+		
+	}
+	#hacker{
+		border-style: outset;
+		line-height: 1.9em;
+		font-style: italic;
+		font-family:georgian,Times,serif;
+		border-color: black;
+		border-width: 3px;
+		background-color: gray;
+		color: red;
+		padding: 25px;
+		margin: 200px;
+		margin-bottom:20px;
+		margin-top:20px;
+		
+	}

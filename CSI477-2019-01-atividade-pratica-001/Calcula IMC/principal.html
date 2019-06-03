@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="stilos.css" >
+    <title>IMC-Calculadora</title>
+  </head>
+  <body>
+    <h1 class="center init">Calculadora de Indice de Massa Corporal</h1>
+	
+	<div class="container">
+		<form name="dados">
+	 
+	 
+			<div id="grupo1" class="form-group">
+				<label for="Peso" id="labelpeso">Digite seu peso</label>
+				<input type="text" name="peso" class="form-control">
+		
+				<div id="alerta1" style="display: none" class="alert alert-danger">
+					<span>Preencha o valor do peso corretamente!</span>
+				</div>
+				
+				
+		
+			</div>
+			<div id="grupo2" class="form-group">
+				<label for="altura" id="labelaltura" >Digite sua Atura em Metros:</label>
+				<input placeholder="ex: 1.75" type="text" name="altura" class="form-control">
+		
+				<div id="alerta2" style="display: none" class="alert alert-danger">
+					<span>Preencha a altura corretamente!</span>
+				</div>
+				
+				
+		
+			</div>
+			
+	 
+	 
+		 <label for="resultado" id="labelresult" >Seu IMC é:</label>
+		 <input type="text" name="resultado">
+		 <h3 id="anum"></h3>
+		 <h3 id="faixa"></h3>
+		 <button name="" type="button" onclick="calcular()">Calcular</button>
+ 
+		 
+ 
+		</form>
+	
+	
+	</div>
+	
+	
+	<script src="JScalculo.js"></script>
+    
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

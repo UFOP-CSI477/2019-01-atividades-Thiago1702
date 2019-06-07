@@ -1,0 +1,57 @@
+.init{
+	font-size:70px;
+	color:blue;
+	text-align: center;
+	border-bottom: 1px solid black;
+	
+	}
+	.castel{
+	font-family: sans serif;
+	font-weight: lighter;
+	}
+	body{
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MqOj97zquOCAZraEUB1tykQ5ZWYBvr45AwElDvyLs4YHgiQa");
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 10px 10px 10px 10px;
+		border-style: double;
+		border-color: yellow;
+		border-width: 3px;
+		color:white;
+	}
+	.bgtable{
+		background-color:#d3d3d3;
+	}
+	.amarelo{
+		color:yellow;
+	}
+	.centra{
+		text-align:center;
+	}
+	.sublinha{
+		text-decoration:underline;
+	}
+	
+	.cadastro{
+		background-color:#D3D3D3;
+		border: solid yellow;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding: 10px 10px 10px 10px;
+		
+	}
+	#hacker{
+		border-style: outset;
+		line-height: 1.9em;
+		font-style: italic;
+		font-family:georgian,Times,serif;
+		border-color: black;
+		border-width: 3px;
+		background-color: gray;
+		color: red;
+		padding: 25px;
+		margin: 200px;
+		margin-bottom:20px;
+		margin-top:20px;
+		
+	}

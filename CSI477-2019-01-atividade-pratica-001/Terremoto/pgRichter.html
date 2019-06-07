@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="stilos.css" >
+    <title>Escala Richter</title>
+  </head>
+  <body>
+    <h1 class="center init">Classificação Tremores de Terra em Escala Richter</h1>
+	
+	<div class="container">
+		<form name="dados">
+	 
+	 
+			<div id="grupo1" class="form-group">
+				<label for="amplitude" id="labelamp">Digite a Amplitude: </label>
+				<input type="text" name="amplitude" class="form-control">
+		
+				<div id="alerta1" style="display: none" class="alert alert-danger">
+					<span>Preencha o valor da Amplitude corretamente!</span>
+				</div>
+				
+				
+		
+			</div>
+			<div id="grupo2" class="form-group">
+				<label for="delta" id="labeldelta" >Digite a variaçao de tempo (&#916t) em segundos: </label>
+				<input  type="text" name="delta" class="form-control">
+		
+				<div id="alerta2" style="display: none" class="alert alert-danger">
+					<span>Preencha a variaçao de tempo corretamente!</span>
+				</div>
+				
+				
+		
+			</div>
+			
+	 
+	 
+		 <label for="resultado" id="labelresult" >A magnitude foi:</label>
+		 <input type="text" name="resultado">
+		 <h3 id="efect"></h3>
+		 <button name="" type="button" onclick="calcular()">Calcular</button>
+		 
+		 
+ 
+		</form>
+	
+	
+	</div>
+	
+	
+	<script src="magnitude.js"></script>
+    
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

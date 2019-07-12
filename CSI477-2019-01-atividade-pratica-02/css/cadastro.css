@@ -1,0 +1,51 @@
+.init{
+	font-weight: lighter;
+	font-family: castellar;
+	font-size:100px;
+	color:yellow;
+	text-align: center;
+	border-bottom: 1px solid black;
+	
+	}
+	.castel{
+	font-family: castellar;
+	font-weight: lighter;
+	}
+	body{
+		background-color: #98FB98;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 10px 10px 10px 10px;
+		
+	}
+	.msg-erro{
+		color:red;
+	}
+	.jumbotron-with-background {
+		background-color: #B22222;
+		padding: 10px 10px 10px 10px;
+	}
+	.bgtable{
+		background-color:#d3d3d3;
+	}
+	.amarelo{
+		color:yellow;
+	}
+	.centra{
+		text-align:center;
+	}
+	.sublinha{
+		text-decoration:underline;
+	}
+	
+	.cadastro{
+		background-color:grey;
+		border: solid yellow;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding: 10px 10px 10px 10px;
+		
+	}
+	.msg-erro{
+		color:red;
+	}
